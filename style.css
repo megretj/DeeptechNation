@@ -2406,7 +2406,7 @@ embed, iframe, object {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #ff4a5d;
+	background-color: #000000;
 	opacity: 0.7;
 }
 #home-banner .content {
@@ -2615,8 +2615,8 @@ ul.about-features li:hover i {
 	-webkit-transition: all .6s;
 }
 #home-contact-block {
-	padding: 70px 0;
-	background: #2b2b2b;
+	padding: 100px 0;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/digitalmap.png');
 }
 
 #home-contact-block .row{padding:15px;}
@@ -2624,29 +2624,29 @@ ul.about-features li:hover i {
 #home-contact-block p {
 	font-size: 24px;
 	font-weight: 500;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	margin-bottom: 0;
 	display: inline-block;
 	float: left;
 	max-width: 800px;
-	
 }
 #home-contact-block a {
 	float: right;
 	max-width: 300px;
-	border: 1px #ff5959 solid;
+	border: 1px #c31a20 solid;
 	display: inline-block;
 	color: #fff;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 400;
-	background: #ff5959;
+	background: #c31a20;
 	padding: 15px 53px;
 	letter-spacing: 0.8px;
+	border-radius: 8px;
 }
 #home-contact-block a:hover {
-	border: 1px #fff solid;
-	background: none;
+	border: 1px rgb(247, 65, 65) solid;
+	background: rgb(247, 65, 65);
 	text-decoration: none;
 	transition: all .6s;
 	-moz-transition: all .6s;
@@ -2657,7 +2657,7 @@ ul.about-features li:hover i {
 }
 #our-work-block h2 {
 	font-size: 32px;
-	color: #404040;
+	color: #c31a20;
 	font-weight: 600;
 	margin-bottom: 10px;
 	display: block;

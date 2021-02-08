@@ -108,10 +108,10 @@ p {
 	position: relative;
 }
 a {
-	color: #4be1ab;
+	color: #c31a20;
 }
 a:hover {
-	color: #4be1ab;
+	color: #c31a20;
 	opacity: 0.8;
 	transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -217,9 +217,10 @@ pre {
 }
 #top-menu a.navbar-brand img, #top-menu a.navbar-brand span {
 	display: inline-block;
+	border-radius: 20%;
 }
 a.navbar-brand span {
-	font-size: 16px;
+	font-size: 18px;
 	text-transform: uppercase;
 	color: #fff;
 	margin-left: 10px;
@@ -230,6 +231,7 @@ a.navbar-brand span {
 	-webkit-transition: all 600ms;
 	position: relative;
 	left: -50px;
+	border-radius: 20%;
 }
 a.navbar-brand:hover span {
 	opacity: 1;
@@ -2421,6 +2423,7 @@ embed, iframe, object {
 	line-height: 1.2;
 	max-width: 650px;
 	margin: 0 auto;
+	font-weight: 900;
 }
 #home-banner h1 span {
 	color: #fff;
@@ -2442,7 +2445,7 @@ embed, iframe, object {
 }
 #home-banner h1 span.liner:after {
 	width: 100%;
-	transition: all ease-in-out 2s;
+	transition: all ease-in-out 3s;
 }
 #home-banner span {
 	color: #fff;
